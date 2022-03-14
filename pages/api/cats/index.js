@@ -21,8 +21,9 @@ export default function index() {
 
   return (
     <div>
-        <Nav />
-        {cats.map(cat => <Card />)}
+      <Nav />
+      {cats.map(cat => <Card name={cat.name} id={cat.id} phone={cat.phone} email={cat.email}
+        image={cat.image} />)}
     </div>
   )
 }
