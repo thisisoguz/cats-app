@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav/Nav'
+import Jumbotron from '../components/Jumbotron/Jumbotron'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Nav />
+        <Jumbotron />
       </main>
 
     </div>
