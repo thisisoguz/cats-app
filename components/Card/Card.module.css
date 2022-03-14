@@ -1,0 +1,27 @@
+.card {
+    width: 18rem;
+    height: 22.5rem;
+    text-align: center;
+    color: rgb(97, 8, 97);
+    margin-bottom: 2rem;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.294);
+  }
+  
+  .card-header {
+    padding: 0;
+    position: relative;
+    height: 70%;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .card p {
+    margin: 0;
+  }
